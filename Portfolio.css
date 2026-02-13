@@ -1,0 +1,214 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f4f7fb;
+  color: #222;
+}
+
+/* Container */
+.container {
+  width: 100%;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  background: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+.header nav {
+  margin-top: 10px;
+}
+
+.header nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #0ea5e9;
+}
+
+/* ================= SECTIONS ================= */
+
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+/* Attractive alternating backgrounds */
+section:nth-child(even) {
+  background: #eaf3ff;   /* soft blue */
+}
+
+section:nth-child(odd) {
+  background: #ffffff;   /* clean white */
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+/* ================= ABOUT SECTION ================= */
+
+#about p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #334155;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+#about img {
+  margin-top: 25px;
+  width: 220px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25);
+}
+
+/* ================= PROJECT CARDS ================= */
+
+#projects div {
+  margin-top: 30px;
+}
+
+#projects img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#projects h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #0f172a;
+}
+
+#projects p {
+  font-size: 15px;
+  margin-top: 8px;
+  color: #475569;
+}
+
+/* ================= SKILLS ================= */
+
+#skills ul {
+  margin-top: 30px;
+}
+
+#skills li {
+  margin: 10px auto;
+  padding: 12px;
+  background: #0ea5e9;
+  color: white;
+  width: 220px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* ================= RESUME ================= */
+
+#resume p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+#resume a {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #0f172a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+#resume a:hover {
+  background: #0ea5e9;
+}
+
+/* ================= CONTACT ================= */
+
+#contact form {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+#contact button {
+  padding: 12px 25px;
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#contact button:hover {
+  background: #0284c7;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background: #0f172a59;
+  color: #e2e8f0;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media (max-width: 768px) {
+
+  .header nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #about p {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 50px 15px;
+  }
+
+}
